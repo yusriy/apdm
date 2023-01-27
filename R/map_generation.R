@@ -28,6 +28,9 @@ library(grid)
 #load map tools
 source('tools/tool_map_createscale.R') # Script to source functions of scales
 
+# Register google maps api key
+register_google(key = "YOU NEED TO USE YOUR OWN GOOGLE KEY")
+
 ##### * Zoomed in map of location #####
 sitemap <- get_googlemap(center = c(lon = 101.108771, lat = 4.511399), sensor=TRUE,
                          size = c(640,640), scale = 2, zoom = 16, maptype = "satellite")

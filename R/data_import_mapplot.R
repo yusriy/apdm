@@ -5,7 +5,7 @@ library(ggmap)
 library(rgdal) # To use the functions to convert UTM to latlon
 
 # Register google maps api key
-register_google(key = "AIzaSyAA8WIFh6gi0SBL0NpTkO7eESgiPo9NOZI")
+register_google(key = "YOU NEED TO USE YOUR OWN GOOGLE KEY")
 #### NOTE: DELETE '*' FROM ORIGINAL AERSCREEN RESULT DATA FILE BEFORE IMPORT
 
 #### Import data
