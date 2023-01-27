@@ -1,4 +1,11 @@
-
+########################################################
+# TITLE: To plot the contour
+# AUTHOR: Yusri Yusup, PhD
+# DATE: 2017-07-07
+# VERSION: 1.0
+# NOTE: This script downloads and plots the contour using
+# ggmap and google map
+########################################################
 
 library(akima) # To generate grid for contour plots
 library(ggmap)
